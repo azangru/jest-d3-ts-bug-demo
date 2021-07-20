@@ -8,8 +8,8 @@ module.exports = (api) => {
         '@babel/preset-env', {
           targets: {
             esmodules: true,
-            // node: 'current'
-          }
+          },
+          modules: false
         }
       ]
     ]
